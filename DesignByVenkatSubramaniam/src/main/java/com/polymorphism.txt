@@ -1,0 +1,12 @@
+Polymorphism says go ahead and call a method but the method that is executed is not based on the type at the compile
+time. in the other word extensibility in general.
+
+What is the worst keyword in Java from the polymorphism point of view.
+
+1. final
+2. static
+3. new, this gut is so evil!
+
+You have many pattern to fight it.
+New : Keep coming you moron.
+New : i want an object of that specific class right now, in the other word it 's a tight coupling

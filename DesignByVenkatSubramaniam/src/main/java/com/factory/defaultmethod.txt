@@ -1,0 +1,7 @@
+How we can use default methods?
+The golden rule: the interface are better than an abstract class still holds true.
+
+Abstract factory(class that acts as a factory) vs factory method(factory is a method not a class it self)
+
+Factory method: A class or an interface relies on a derived class to provide the implementation whereas
+the base provides the common behavior that you want to capture. Looking down on the hierarchy

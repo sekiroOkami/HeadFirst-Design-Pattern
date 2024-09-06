@@ -1,0 +1,16 @@
+
+A good design reads like a story and not like a puzzle, good design has an empathy.
+
+Effective java : do not return a null, instead return an empty collection.
+why : because you can iterate over the empty collection. dont' have to perform null check on it.
+
+what if we have a single value?
+We should return Optional<T>
+
+If a method will always have a single value as a result please DO NOT USE OPTIONAL
+if a method may or may not have a single value as a result , then use optional
+if the result is a collection, then don't use optional
+
+Don't use Optional<T> as a parameter to methods. if needed, use overloading instead.
+
+There is little reason to use Optional as a field.
