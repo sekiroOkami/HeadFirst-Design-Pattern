@@ -1,2 +1,0 @@
-
-HeadFirst Design pattern
