@@ -1,0 +1,7 @@
+decorator is one of those scary patterns.
+Functions are composable
+Functions can have composition as well and it becomes really powerful when we think
+about functions as a composition.
+
+the way to create a combinedFunction , we can leverage that in terms of decorators
+and how we can build decorators into our own code.

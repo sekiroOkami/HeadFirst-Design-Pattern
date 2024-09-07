@@ -5,3 +5,6 @@ Abstract factory(class that acts as a factory) vs factory method(factory is a me
 
 Factory method: A class or an interface relies on a derived class to provide the implementation whereas
 the base provides the common behavior that you want to capture. Looking down on the hierarchy
+
+factory method uses inheritance as a disign tool
+

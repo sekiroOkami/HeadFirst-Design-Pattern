@@ -1,0 +1,2 @@
+this particular pattern can be a pattern for removing the burden of object allocation and deallocation
+from the users of an object.

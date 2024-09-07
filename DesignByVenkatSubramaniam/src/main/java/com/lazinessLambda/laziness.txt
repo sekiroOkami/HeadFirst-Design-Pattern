@@ -1,0 +1,37 @@
+laziness can be powerful tool for delegating responsibility to code that would not have to execute.
+
+Lazy evaluation is to functional programming as
+polymorphis is to object-oriented program.
+
+HOW CAN WE EMBRACE LAZINESS?
+JAVA is an eager evaluation language.
+short-circuiting
+
+David wheeler:
+'In CS we can solve almost any problem by introducing one more level of indirection'
+in the other word: solving complex problems by introducing an extra layer of abstraction
+or indirection between components.
+
+Indirection: refers to the act of accessing something indirectly through a middle layer or
+mechanism, rather that directly.
+
+Layer of abstraction is a level at which specific details are hidden to simplify the interaction with or understanding of the system.
+
+In OO code, overriding functions gave the power of indirection
+In FP, lambdas give the power of indirection
+
+apple analogy,
+when you have an apple , you have 4 option
+1.eat it right now
+2.eat it later
+3.throw it away
+4.give it to someone else
+
+when Lambdas is given to you ,  you have 4 option as well as apple
+
+myFunction(Type value)  - eager
+myFunction(Supplier<Type> supplier) - lazy
+
+When do we pass value vs. a functional interface to a method?
+One consideration is laza evaluation.
+
