@@ -1,0 +1,16 @@
+We want to vary a small paet of an algorithm while keeping the rest of the algorithm the same.
+
+but...
+Language design is program design, language influence our design , we cannot design in isolation of the languages
+When a language restricts what we can do we end up a bit powerless.
+
+Design patterns often kick in to fill the gaps with a programing language.
+in the other word, if we celebrate design pattern a lot more that's not a good sign.
+
+A more power a language is, the less we talk about design patterns as these naturally become the features of the
+language.
+
+in the pass, how did we use strategy
+We create an interface and then a bunch of classes. Then wire them together often use factories.
+
+Lambdas are lightweight strategies, it can help us to design the code a lot more effectively

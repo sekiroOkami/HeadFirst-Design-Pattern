@@ -1,0 +1,5 @@
+1.No Side-Effects: The pipeline doesn't modify any external state. It operates only on the inputs provided and produces
+new values or collections without affecting variables or data outside its scope.
+
+2. Deterministic: The pipeline always returns the same result when given the same input. It doesn't rely on external
+state that can change between calls, like mutable variables, system time, or random numbers.
